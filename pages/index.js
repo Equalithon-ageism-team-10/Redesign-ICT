@@ -123,9 +123,27 @@ export default function Home() {
                 {
                   id: "17",
                   options: [
-                    { value: 1, label: "Program", trigger: "" },
-                    { value: 2, label: "1:1 Coach", trigger: "" },
-                    { value: 3, label: "Library", trigger: "" },
+                    {
+                      value: 1,
+                      label: "Program",
+                      trigger: () => {
+                        open("https://www.ictransitions.org/offerings/collaboratory/", "ICT Bot");
+                      },
+                    },
+                    {
+                      value: 2,
+                      label: "1:1 Coach",
+                      trigger: () => {
+                        open("https://www.ictransitions.org/category/coaches/", "ICT Bot");
+                      },
+                    },
+                    {
+                      value: 3,
+                      label: "Library",
+                      trigger: () => {
+                        open("https://www.ictransitions.org/library/", "ICT Bot");
+                      },
+                    },
                   ],
                 },
               ]}
