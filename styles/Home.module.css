@@ -114,15 +114,3 @@
     flex-direction: column;
   }
 }
-
-.botButton {
-  position: absolute;
-  bottom: 2rem;
-  right: 3rem;
-}
-
-.botEmblem {
-  font-size: 3rem;
-  text-align: center;
-  cursor: pointer;
-}

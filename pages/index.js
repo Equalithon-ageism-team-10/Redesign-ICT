@@ -5,7 +5,7 @@ import { useState } from "react";
 import ProgrammedChatBot from "../components/chatbot";
 
 export default function Home() {
-  const [bot, setBot] = useState(false);
+  const [bot, setBot] = useState(true);
   const windowName = "Redesign-ICT";
 
   return (
@@ -18,16 +18,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div>
-          {bot ? (
-            <ProgrammedChatBot bot={bot} setBot={setBot} windowName={windowName} />
-          ) : (
-            <div className={styles.botButton}>
-              <div className={styles.botEmblem} onClick={() => setBot(!bot)}>
-                ❖
-              </div>
-              Quiz?
-            </div>
-          )}
+          {bot ? <ProgrammedChatBot bot={bot} setBot={setBot} windowName={windowName} /> : <></>}
         </div>
       </main>
     </div>
