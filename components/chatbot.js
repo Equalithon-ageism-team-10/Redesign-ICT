@@ -17,6 +17,9 @@ export default function ProgrammedChatBot({ bot, setBot, windowName }) {
   return (
     <ThemeProvider theme={theme}>
       <ChatBot
+        botAvatar="/chatbot/botAvatar.png"
+        headerTitle="Let's Chat!"
+        hideUserAvatar={true}
         steps={[
           {
             id: "1",
