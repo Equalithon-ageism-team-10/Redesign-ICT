@@ -24,7 +24,7 @@ export default function Home() {
           <div className={styles.botEmblem} onClick={() => setBot(!bot)}>
             ❖
           </div>
-          Take A Quiz
+          Quiz?
         </div>
       </main>
     </div>

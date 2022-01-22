@@ -1,5 +1,6 @@
 import ChatBot from "react-simple-chatbot";
 import { ThemeProvider } from "styled-components";
+import styles from "./chatbot.module.css";
 
 const theme = {
   background: "rgba(248, 251, 255, 1)",
@@ -17,6 +18,10 @@ export default function ProgrammedChatBot({ bot, setBot, windowName }) {
   return (
     <ThemeProvider theme={theme}>
       <ChatBot
+        placeholder=""
+        hideSubmitButton={true}
+        floating={true}
+        className={styles.chatBot}
         botAvatar="/chatbot/botAvatar.png"
         headerTitle="Let's Chat!"
         hideUserAvatar={true}
