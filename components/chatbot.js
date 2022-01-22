@@ -48,7 +48,7 @@ export default function ProgrammedChatBot({ bot, setBot, windowName }) {
             options: [
               { value: 1, label: "Great!", trigger: "18" },
               { value: 2, label: "OK.", trigger: "19" },
-              { value: 3, label: "Not Good", trigger: "6" },
+              { value: 3, label: "Not Good.", trigger: "6" },
             ],
           },
           {
@@ -70,7 +70,7 @@ export default function ProgrammedChatBot({ bot, setBot, windowName }) {
             id: "7",
             options: [
               { value: 1, label: "Perfect!", trigger: "20" },
-              { value: 2, label: "Its OK", trigger: "21" },
+              { value: 2, label: "It's OK.", trigger: "21" },
               { value: 3, label: "Help Me!", trigger: "8" },
             ],
           },
@@ -86,15 +86,15 @@ export default function ProgrammedChatBot({ bot, setBot, windowName }) {
           },
           {
             id: "21",
-            message: "Could be better. Do you like what you do?",
+            message: "It could be better. Do you like what you do?",
             trigger: "9",
           },
           {
             id: "9",
             options: [
-              { value: 1, label: "100%", trigger: "22" },
-              { value: 2, label: "Debatable", trigger: "10" },
-              { value: 3, label: "Not really", trigger: "23" },
+              { value: 1, label: "100%!", trigger: "22" },
+              { value: 2, label: "Debatable.", trigger: "10" },
+              { value: 3, label: "Not really.", trigger: "23" },
             ],
           },
           {
@@ -116,8 +116,8 @@ export default function ProgrammedChatBot({ bot, setBot, windowName }) {
             id: "11",
             options: [
               { value: 1, label: "Definitely!", trigger: "24" },
-              { value: 2, label: "Not Sure", trigger: "25" },
-              { value: 3, label: "Not really", trigger: "12" },
+              { value: 2, label: "Not Sure.", trigger: "25" },
+              { value: 3, label: "Not really.", trigger: "12" },
             ],
           },
           {
@@ -141,7 +141,7 @@ export default function ProgrammedChatBot({ bot, setBot, windowName }) {
             id: "13",
             options: [
               { value: 1, label: "Yes!!", trigger: "14" },
-              { value: 2, label: "Not right now", trigger: "26" },
+              { value: 2, label: "Not right now.", trigger: "26" },
               { value: 3, label: "But how?", trigger: "14" },
               { value: 4, label: "Isn't it too late?", trigger: "28" },
             ],
@@ -168,12 +168,12 @@ export default function ProgrammedChatBot({ bot, setBot, windowName }) {
           {
             id: "14",
             message:
-              "At ICT we have a 12-week career transition program. We go step-by-step with you through it",
+              "At ICT, we have a 12-week career transition program. We go step-by-step with you through it.",
             trigger: "15",
           },
           {
             id: "15",
-            message: "We also have 1:1 coaching so you're never alone.",
+            message: "We also have 1:1 coaching, so you're never alone.",
             trigger: "16",
           },
           {
@@ -186,7 +186,7 @@ export default function ProgrammedChatBot({ bot, setBot, windowName }) {
             options: [
               {
                 value: 1,
-                label: "Program",
+                label: "Career Program",
                 trigger: () => {
                   open("https://www.ictransitions.org/offerings/collaboratory/", windowName);
                   setBot(!bot);
@@ -194,7 +194,7 @@ export default function ProgrammedChatBot({ bot, setBot, windowName }) {
               },
               {
                 value: 2,
-                label: "1:1 Coach",
+                label: "1:1 Coaching",
                 trigger: () => {
                   open("https://www.ictransitions.org/category/coaches/", windowName);
                   setBot(!bot);
@@ -202,7 +202,7 @@ export default function ProgrammedChatBot({ bot, setBot, windowName }) {
               },
               {
                 value: 3,
-                label: "Library",
+                label: "Career Library",
                 trigger: () => {
                   open("https://www.ictransitions.org/library/", windowName);
                   setBot(!bot);
@@ -218,12 +218,12 @@ export default function ProgrammedChatBot({ bot, setBot, windowName }) {
           {
             id: "29",
             message:
-              "At ICT we can help you transition careers with our 12-week program. We go step-by-step with you through it",
+              "At ICT, we can help you transition careers with our 12-week program. We go step-by-step with you through it.",
             trigger: "30",
           },
           {
             id: "30",
-            message: "We also have 1:1 coaching so you're never alone.",
+            message: "We also have 1:1 coaching, so you're never alone.",
             trigger: "31",
           },
           {
