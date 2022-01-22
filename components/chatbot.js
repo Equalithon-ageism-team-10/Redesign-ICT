@@ -40,7 +40,12 @@ export default function ProgrammedChatBot({ bot, setBot, windowName }) {
           },
           {
             id: "3",
-            message: "No worries! Chat soon!",
+            message: () => {
+              setTimeout(() => {
+                setBot(!bot);
+              }, 3000);
+              return "No worries! Chat soon!";
+            },
             end: true,
           },
           {
@@ -266,9 +271,7 @@ export default function ProgrammedChatBot({ bot, setBot, windowName }) {
               {
                 value: 4,
                 label: "No thanks",
-                trigger: () => {
-                  setBot(!bot);
-                },
+                trigger: "3",
               },
             ],
           },

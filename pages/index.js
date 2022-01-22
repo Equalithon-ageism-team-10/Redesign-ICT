@@ -18,13 +18,16 @@ export default function Home() {
 
       <main className={styles.main}>
         <div>
-          {bot ? <ProgrammedChatBot bot={bot} setBot={setBot} windowName={windowName} /> : <></>}
-        </div>
-        <div className={styles.botButton}>
-          <div className={styles.botEmblem} onClick={() => setBot(!bot)}>
-            ❖
-          </div>
-          Quiz?
+          {bot ? (
+            <ProgrammedChatBot bot={bot} setBot={setBot} windowName={windowName} />
+          ) : (
+            <div className={styles.botButton}>
+              <div className={styles.botEmblem} onClick={() => setBot(!bot)}>
+                ❖
+              </div>
+              Quiz?
+            </div>
+          )}
         </div>
       </main>
     </div>
