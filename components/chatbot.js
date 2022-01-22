@@ -17,6 +17,7 @@ export default function ProgrammedChatBot({ bot, setBot, windowName }) {
   return (
     <ThemeProvider theme={theme}>
       <ChatBot
+        floatingIcon="/chatbot/floatingIcon.png"
         placeholder=""
         hideSubmitButton={true}
         floating={true}
