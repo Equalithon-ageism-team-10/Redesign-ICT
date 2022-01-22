@@ -20,7 +20,7 @@ export default function Home() {
         <div>
           {bot ? (
             <div>
-              <p className={styles.chatBotTitle}>Quiz?</p>
+              <p className={styles.chatBotTitle}>Quiz</p>
               <ProgrammedChatBot bot={bot} setBot={setBot} windowName={windowName} />
             </div>
           ) : (
