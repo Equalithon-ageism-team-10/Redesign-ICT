@@ -114,3 +114,10 @@
     flex-direction: column;
   }
 }
+
+.chatBotTitle {
+  position: absolute;
+  bottom: 4.5rem;
+  right: 1.95rem;
+  font-size: 1.5rem;
+}
