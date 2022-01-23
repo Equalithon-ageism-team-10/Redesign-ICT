@@ -8,14 +8,11 @@ Chatbot that makes it engaging for the user to find out more about ICT (Institut
 
 ## Attribution:
 
-ICT (Institute for Career Transitions)
-https://www.ictransitions.org/
+[ICT (Institute for Career Transitions)](https://www.ictransitions.org/)
 
-Equalithon
-https://www.equalithon.io/
+[Equalithon](https://www.equalithon.io/)
 
-Essteem
-https://www.essteem.com/
+[Essteem](https://www.essteem.com/)
 
 ## Tech Stack:
 
@@ -23,6 +20,6 @@ Built using Next.js, React, React-Simple-Chatbot, and Styled-Components.
 
 ## Dev Team:
 
-- Brittany Chan [LinkedIn](https://www.linkedin.com/in/brittany-chan-32ab43a4/)
+- Brittany Chan ([LinkedIn](https://www.linkedin.com/in/brittany-chan-32ab43a4/))
 - Jean Carlos Zhong Chen ([LinkedIn](https://www.linkedin.com/in/jean-carlos-zhong-chen/) | [GitHub](https://github.com/jeancarlosZ))
-- Leiba Kahan [LinkedIn](https://www.linkedin.com/in/leiba-kahan-107129128/)
+- Leiba Kahan ([LinkedIn](https://www.linkedin.com/in/leiba-kahan-107129128/))
