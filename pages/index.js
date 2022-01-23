@@ -14,7 +14,7 @@ export default function Home() {
       <Head>
         <title>Redesign-ICT</title>
         <meta name={windowName} content="Chatbot and other design ideas for ICT" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/ict/ictLogo.png" />
       </Head>
 
       <main className={styles.main}>
