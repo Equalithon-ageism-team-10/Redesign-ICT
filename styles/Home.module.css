@@ -122,3 +122,18 @@
   right: 2.25rem;
   font-size: 1.5rem;
 }
+
+.storyBtn {
+  position: absolute;
+  top: 2.25rem;
+  right: 2rem;
+  background-color: dodgerblue;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 0.15rem solid white;
+}
+
+.storyBtn:hover {
+  border: 0.15rem solid blue;
+}

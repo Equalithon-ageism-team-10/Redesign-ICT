@@ -1,6 +1,7 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { useState } from "react";
+import Link from "next/link";
 
 import ProgrammedChatBot from "../components/chatbot";
 
@@ -17,6 +18,11 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+        <div className={styles.storyBtn}>
+          <Link href="/storypage">
+            <a>Story</a>
+          </Link>
+        </div>
         <div>
           {bot ? (
             <div>
