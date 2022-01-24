@@ -1,10 +1,14 @@
+## Video Presentation:
+
+https://youtu.be/7nXuXVGmb3s
+
 ## Deployed Web App:
 
 https://redesignict.herokuapp.com/
 
 ## Description:
 
-Chatbot that makes it engaging for the user to find out more about ICT (Institute for Career Transitions).
+One week Equalithon for Ageism where we modified a chatbot to make it engaging for the user to find out more about ICT (Institute for Career Transitions). We also have a work in progress story page idea.
 
 ## Attribution:
 
@@ -16,7 +20,7 @@ Chatbot that makes it engaging for the user to find out more about ICT (Institut
 
 ## Tech Stack:
 
-Built using Next.js, React, React-Simple-Chatbot, and Styled-Components.
+Built using Figma, Next.js, React, React-Simple-Chatbot, and Styled-Components.
 
 ## Dev Team:
 
