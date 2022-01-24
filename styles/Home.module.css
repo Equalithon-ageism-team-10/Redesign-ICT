@@ -1,6 +1,7 @@
 .container {
   padding: 0 2rem;
   background-image: url("/ict/ictHomepage.png");
+  background-size: cover;
 }
 
 .main {
@@ -125,11 +126,12 @@
 
 .storyBtn {
   position: absolute;
-  top: 2.25rem;
+  font-size: 1.25rem;
+  top: 4rem;
   right: 2rem;
   background-color: dodgerblue;
   color: white;
-  padding: 0.5rem;
+  padding: 0.75rem;
   border-radius: 0.5rem;
   border: 0.15rem solid white;
 }
