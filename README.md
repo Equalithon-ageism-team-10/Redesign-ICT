@@ -1,3 +1,7 @@
+## Video Presentation:
+
+https://youtu.be/jFWkqvT5Eoo
+
 ## Deployed Web App:
 
 https://redesignict.herokuapp.com/
