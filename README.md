@@ -20,7 +20,7 @@ One week Equalithon for Ageism where we modified a chatbot to make it engaging f
 
 ## Tech Stack:
 
-Built using Figma, Next.js, React, React-Simple-Chatbot, and Styled-Components.
+Built using Figma, Next.js, React, React Simple Chatbot, Classnames, and styled-components.
 
 ## Dev Team:
 
